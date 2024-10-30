@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>OOP Project Shopping Cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Phone Brand</h1>
+      <hr />
+      <h2>🛒 Cart</h2>
+      <div id="cart" class="cart"></div>
+      <h2>Total Price: $<span id="totalPrice">0.00</span></h2>
+      <div class="grid" id="productGrid">
+        <div class="item" data-price="20.00">
+          <img src="products/products_35_2.webp" alt="Apple iPad Mini 6" />
+          <h2>Apple iPad Mini 6</h2>
+          <p class="price">$20.00</p>
+          <div class="quantity">
+            <button class="decrease">-</button>
+            <span class="amount">1</span>
+            <button class="increase">+</button>
+          </div>
+          <button class="add-to-cart">🛒 Add to Cart</button>
+        </div>
+        <div class="item" data-price="25.00">
+          <img src="products/products_3_2.webp" alt="iPad Air 4 10.9-inch" />
+          <h2>iPad Air 4 10.9-inch</h2>
+          <p class="price">$25.00</p>
+          <div class="quantity">
+            <button class="decrease">-</button>
+            <span class="amount">1</span>
+            <button class="increase">+</button>
+          </div>
+          <button class="add-to-cart">🛒 Add to Cart</button>
+        </div>
+        <div class="item" data-price="30.00">
+          <img src="products/products_4_2.webp" alt="Samsung Galaxy S21" />
+          <h2>Samsung Galaxy S21</h2>
+          <p class="price">$30.00</p>
+          <div class="quantity">
+            <button class="decrease">-</button>
+            <span class="amount">1</span>
+            <button class="increase">+</button>
+          </div>
+          <button class="add-to-cart">🛒 Add to Cart</button>
+        </div>
+        <div class="item" data-price="22.00">
+          <img src="products/products_6_2.webp" alt="Flip 4 teckno" />
+          <h2>Flip 4 teckno</h2>
+          <p class="price">$22.00</p>
+          <div class="quantity">
+            <button class="decrease">-</button>
+            <span class="amount">1</span>
+            <button class="increase">+</button>
+          </div>
+          <button class="add-to-cart">🛒 Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <script src="model.js"></script>
+  </body>
+</html>
